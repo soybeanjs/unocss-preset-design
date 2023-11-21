@@ -1,0 +1,60 @@
+{
+	"name": "unocss-preset-design",
+	"version": "0.0.0",
+	"description": "theme design for unocss",
+	"packageManager": "pnpm@8.10.5",
+	"author": {
+		"name": "Soybean",
+		"email": "soybeanjs@outlook.com",
+		"url": "https://github.com/soybeanjs"
+	},
+	"license": "MIT",
+	"homepage": "https://github.com/soybeanjs/unocss-preset-design",
+	"repository": {
+		"url": "https://github.com/soybeanjs/unocss-preset-design.git"
+	},
+	"bugs": {
+		"url": "https://github.com/soybeanjs/unocss-preset-design/issues"
+	},
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.cjs",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"main": "dist/index.cjs",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "pnpm typecheck && unbuild",
+		"typecheck": "tsc --noEmit",
+		"lint": "eslint . --fix",
+		"format": "soy prettier-write",
+		"commit": "soy git-commit",
+		"cleanup": "soy cleanup",
+		"update-pkg": "soy ncu",
+		"publish-pkg": "pnpm publish --access public",
+		"release": "soy release && pnpm build && pnpm publish-pkg"
+	},
+	"dependencies": {
+		"@soybeanjs/color-palette": "0.0.2",
+		"@unocss/core": "0.57.7",
+		"@unocss/preset-uno": "0.57.7",
+		"colord": "2.9.3",
+		"consola": "3.2.3"
+	},
+	"devDependencies": {
+		"@soybeanjs/cli": "0.7.9",
+		"@types/cli-progress": "3.11.5",
+		"@types/node": "20.9.3",
+		"eslint": "8.54.0",
+		"eslint-config-soybeanjs": "0.5.8",
+		"tsx": "4.2.0",
+		"typescript": "5.3.2",
+		"unbuild": "2.0.0"
+	}
+}
