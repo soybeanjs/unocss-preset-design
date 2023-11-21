@@ -1,6 +1,6 @@
 {
 	"name": "unocss-preset-design",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "theme design for unocss",
 	"packageManager": "pnpm@8.10.5",
 	"author": {
