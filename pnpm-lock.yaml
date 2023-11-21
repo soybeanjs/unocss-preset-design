@@ -6,13 +6,13 @@ settings:
 
 dependencies:
   '@soybeanjs/color-palette':
-    specifier: ^0.0.2
+    specifier: 0.0.2
     version: 0.0.2
   '@unocss/core':
-    specifier: ^0.57.7
+    specifier: 0.57.7
     version: 0.57.7
   '@unocss/preset-uno':
-    specifier: ^0.57.7
+    specifier: 0.57.7
     version: 0.57.7
   colord:
     specifier: 2.9.3

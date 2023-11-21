@@ -38,7 +38,7 @@
 		"cleanup": "soy cleanup",
 		"update-pkg": "soy ncu",
 		"publish-pkg": "pnpm publish --access public",
-		"release": "soy release && pnpm build && pnpm publish-pkg"
+		"release": "soy release"
 	},
 	"dependencies": {
 		"@soybeanjs/color-palette": "0.0.2",
