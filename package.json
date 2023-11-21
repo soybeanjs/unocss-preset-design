@@ -16,6 +16,9 @@
 	"bugs": {
 		"url": "https://github.com/soybeanjs/unocss-preset-design/issues"
 	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
 	"exports": {
 		".": {
 			"import": "./dist/index.mjs",
