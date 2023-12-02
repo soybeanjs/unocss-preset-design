@@ -14,8 +14,8 @@ pnpm i -D unocss-preset-design
 
 ```ts
 import { defineConfig } from "@unocss/vite";
-import type { Theme } from "@unocss/preset-uno";
-import presetUno from "@unocss/preset-uno";
+import type { Theme } from "@unocss/preset-mini";
+import presetUno from "@unocss/preset-mini";
 import presetDesign from "unocss-preset-design";
 
 export default defineConfig<Theme>({

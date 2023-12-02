@@ -1,5 +1,5 @@
 import type { Preset, Preflight } from '@unocss/core';
-import type { Theme as UnoTheme } from '@unocss/preset-uno';
+import type { Theme as UnoTheme } from '@unocss/preset-mini';
 import { createOptions } from './options';
 import {
   transformTokensToUnoTheme,

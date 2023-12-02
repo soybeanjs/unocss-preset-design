@@ -11,7 +11,7 @@ dependencies:
   '@unocss/core':
     specifier: 0.57.7
     version: 0.57.7
-  '@unocss/preset-uno':
+  '@unocss/preset-mini':
     specifier: 0.57.7
     version: 0.57.7
   colord:
@@ -29,8 +29,8 @@ devDependencies:
     specifier: 3.11.5
     version: 3.11.5
   '@types/node':
-    specifier: 20.9.3
-    version: 20.9.3
+    specifier: 20.10.1
+    version: 20.10.1
   eslint:
     specifier: 8.54.0
     version: 8.54.0
@@ -38,8 +38,8 @@ devDependencies:
     specifier: 0.5.8
     version: 0.5.8(eslint@8.54.0)(svelte@4.2.7)(typescript@5.3.2)
   tsx:
-    specifier: 4.2.0
-    version: 4.2.0
+    specifier: 4.6.1
+    version: 4.6.1
   typescript:
     specifier: 5.3.2
     version: 5.3.2
@@ -1113,7 +1113,7 @@ packages:
   /@types/cli-progress@3.11.5:
     resolution: {integrity: sha512-D4PbNRbviKyppS5ivBGyFO29POlySLmA2HyUFE4p5QGazAMM3CwkKWcvTl8gvElSuxRh6FPKL8XmidX873ou4g==}
     dependencies:
-      '@types/node': 20.9.3
+      '@types/node': 20.10.1
     dev: true
 
   /@types/estree@1.0.5:
@@ -1132,8 +1132,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.9.3:
-    resolution: {integrity: sha512-nk5wXLAXGBKfrhLB0cyHGbSqopS+nz0BUgZkUQqSHSSgdee0kssp1IAqlQOu333bW+gMNs2QREx7iynm19Abxw==}
+  /@types/node@20.10.1:
+    resolution: {integrity: sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1378,23 +1378,6 @@ packages:
     dependencies:
       '@unocss/core': 0.57.7
       '@unocss/extractor-arbitrary-variants': 0.57.7
-      '@unocss/rule-utils': 0.57.7
-    dev: false
-
-  /@unocss/preset-uno@0.57.7:
-    resolution: {integrity: sha512-yRKvRBaPLmDSUZet5WnV1WNb3BV4EFwvB1Zbvlc3lyVp6uCksP/SYlxuUwht7JefOrfiY2sGugoBxZTyGmj/kQ==}
-    dependencies:
-      '@unocss/core': 0.57.7
-      '@unocss/preset-mini': 0.57.7
-      '@unocss/preset-wind': 0.57.7
-      '@unocss/rule-utils': 0.57.7
-    dev: false
-
-  /@unocss/preset-wind@0.57.7:
-    resolution: {integrity: sha512-olQ6+w0fQ84eEC1t7SF4vJyKcyawkDWSRF5YufOqeQZL3zjqBzMQi+3PUlKCstrDO1DNZ3qdcwg1vPHRmuX9VA==}
-    dependencies:
-      '@unocss/core': 0.57.7
-      '@unocss/preset-mini': 0.57.7
       '@unocss/rule-utils': 0.57.7
     dev: false
 
@@ -5732,14 +5715,13 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsx@4.2.0:
-    resolution: {integrity: sha512-hvAXAz4KUYNyjXOjJJgyjT7YOGFUNLC8jnODI6Omc/wGKaZ7z0FvW5d2haqg1GLfX49H3nZOpLYRlHMYGI8Wbw==}
+  /tsx@4.6.1:
+    resolution: {integrity: sha512-OQ4TAPHXAPUo/NZAmmIybl0o8LFOTlycQxFepLBAp6EV87U88fOKYGCQI2viGAEOVU9UW/cgQcxcOMnfEKVY3Q==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
       esbuild: 0.18.20
       get-tsconfig: 4.7.2
-      source-map-support: 0.5.21
     optionalDependencies:
       fsevents: 2.3.3
     dev: true

@@ -1,4 +1,4 @@
-import type { Theme as UnoTheme } from '@unocss/preset-uno';
+import type { Theme as UnoTheme } from '@unocss/preset-mini';
 
 type RgbColor = `rgb(${number}, ${number}, ${number})`;
 

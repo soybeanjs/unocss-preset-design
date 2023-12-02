@@ -1,5 +1,5 @@
 import { getColorPalette } from '@soybeanjs/color-palette';
-import type { Theme as UnoTheme } from '@unocss/preset-uno';
+import type { Theme as UnoTheme } from '@unocss/preset-mini';
 import { transformCamelToKebab, getColorValue } from './shared';
 import type { Token, Theme, RgbOrHsl } from './type';
 

@@ -46,17 +46,17 @@
 	"dependencies": {
 		"@soybeanjs/color-palette": "0.0.2",
 		"@unocss/core": "0.57.7",
-		"@unocss/preset-uno": "0.57.7",
+		"@unocss/preset-mini": "0.57.7",
 		"colord": "2.9.3",
 		"consola": "3.2.3"
 	},
 	"devDependencies": {
 		"@soybeanjs/cli": "0.7.9",
 		"@types/cli-progress": "3.11.5",
-		"@types/node": "20.9.3",
+		"@types/node": "20.10.1",
 		"eslint": "8.54.0",
 		"eslint-config-soybeanjs": "0.5.8",
-		"tsx": "4.2.0",
+		"tsx": "4.6.1",
 		"typescript": "5.3.2",
 		"unbuild": "2.0.0"
 	}
