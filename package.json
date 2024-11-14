@@ -57,7 +57,7 @@
 		"eslint": "8.54.0",
 		"eslint-config-soybeanjs": "0.5.8",
 		"tsx": "4.6.1",
-		"typescript": "5.3.2",
+		"typescript": "5.6.3",
 		"unbuild": "2.0.0"
 	}
 }
