@@ -45,7 +45,7 @@
 	},
 	"dependencies": {
 		"@soybeanjs/color-palette": "0.0.2",
-		"@unocss/core": "0.57.7",
+		"@unocss/core": "0.64.0",
 		"@unocss/preset-mini": "0.57.7",
 		"colord": "2.9.3",
 		"consola": "3.2.3"
