@@ -52,7 +52,7 @@
 	},
 	"devDependencies": {
 		"@soybeanjs/cli": "0.7.9",
-		"@types/cli-progress": "3.11.5",
+		"@types/cli-progress": "3.11.6",
 		"@types/node": "20.10.1",
 		"eslint": "8.54.0",
 		"eslint-config-soybeanjs": "0.5.8",
