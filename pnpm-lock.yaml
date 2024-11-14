@@ -26,8 +26,8 @@ devDependencies:
     specifier: 0.7.9
     version: 0.7.9
   '@types/cli-progress':
-    specifier: 3.11.5
-    version: 3.11.5
+    specifier: 3.11.6
+    version: 3.11.6
   '@types/node':
     specifier: 20.10.1
     version: 20.10.1
@@ -1110,8 +1110,8 @@ packages:
       minimatch: 9.0.3
     dev: true
 
-  /@types/cli-progress@3.11.5:
-    resolution: {integrity: sha512-D4PbNRbviKyppS5ivBGyFO29POlySLmA2HyUFE4p5QGazAMM3CwkKWcvTl8gvElSuxRh6FPKL8XmidX873ou4g==}
+  /@types/cli-progress@3.11.6:
+    resolution: {integrity: sha512-cE3+jb9WRlu+uOSAugewNpITJDt1VF8dHOopPO4IABFc3SXYL5WE/+PTz/FCdZRRfIujiWW3n3aMbv1eIGVRWA==}
     dependencies:
       '@types/node': 20.10.1
     dev: true
