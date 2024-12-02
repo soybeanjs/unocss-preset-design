@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.0.2
     version: 0.0.2
   '@unocss/core':
-    specifier: 0.57.7
-    version: 0.57.7
+    specifier: 0.65.0
+    version: 0.65.0
   '@unocss/preset-mini':
     specifier: 0.57.7
     version: 0.57.7
@@ -1365,6 +1365,10 @@ packages:
 
   /@unocss/core@0.57.7:
     resolution: {integrity: sha512-1d36M0CV3yC80J0pqOa5rH1BX6g2iZdtKmIb3oSBN4AWnMCSrrJEPBrUikyMq2TEQTrYWJIVDzv5A9hBUat3TA==}
+    dev: false
+
+  /@unocss/core@0.65.0:
+    resolution: {integrity: sha512-2QwjMq/bm7lbxk6BTyGblWuTtSfXRuHJSoN1zys53ES+SrVVYA8FVDIpiTQbxENLcXhwwq1OaN3z7zi714n+OA==}
     dev: false
 
   /@unocss/extractor-arbitrary-variants@0.57.7:
